@@ -63,7 +63,7 @@ func smoothstep<T: FloatingPoint>(_ edge0:T,_ edge1:T,_ x:T) throws -> T {
     
     let t = try clamp((x-edge0)/(edge1-edge0), 0, 1)
     
-    return t*t*(3 - 2*t) // -> conversion T into double was not specified!
+    return t*t*(3 - 2*t) // FloatingPoint and Int can be together.
     
 }
 
