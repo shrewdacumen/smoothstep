@@ -14,13 +14,10 @@ smoothstep returns 0.0 if x ≤ edge0 and 1.0 if x ≥ edge1.
 Results are undefined if edge0 ≥ edge1.
 
 
- main.swift script (this can be executable on any unix or macOS command line)
+main.swift:
+    it is for Swift script which will execute in command line on macOS or Unix, Linux and the likes.
 In order to run the swift,  open terminal.app and then type the followings:
     chmod u+x ./main.swift
     ./main.swift
 
 Then you'll see the result in the terminal as well.
-
-
-// Please disregard all errors
-// this is for Swift script which will execute in command line on macOS or Unix, Linux and the likes.

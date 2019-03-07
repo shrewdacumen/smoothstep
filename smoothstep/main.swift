@@ -1,6 +1,5 @@
 #!/usr/bin/swift
-// Please disregard all errors
-// this is for Swift script which will execute in command line on macOS or Unix, Linux and the likes.
+// This is for Swift script which will execute in command line on macOS or Unix, Linux and the likes.
 //
 //  main.swift script (this can be executable on any unix or macOS command line)
 //  smoothstep
