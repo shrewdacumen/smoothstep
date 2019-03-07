@@ -48,7 +48,7 @@ func smoothstep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
 func dummy() {
 //    return Void()
 //    return
-    return () // () -> Void
+    return () // () is another expression of Void
 }
 
 func demo(with option:String) -> Void? {
