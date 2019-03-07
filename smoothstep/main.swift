@@ -12,34 +12,6 @@ import Foundation
 import Cocoa
 
 
-/*
- func clamp(_ x:Double,_ min: Double,_ max: Double) throws -> Double {
- 
- guard max > min else {
- throw Math_Error.E_MINMAX_REVERSED
- }
- if x < min {
- return min
- } else if x > max {
- return max
- }
- 
- return x
- }
- 
- func smoothstep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
- 
- guard edge0 != edge1 else {
- throw Math_Error.E_OVERFLOW
- }
- 
- let t = try clamp((x-edge0)/(edge1-edge0), 0.0, 1.0)
- 
- return t*t*(3.0 - 2.0*t)
- 
- }
- */
-
 enum Math_Error:Error {
     case E_OVERFLOW
     case E_MINMAX_REVERSED
@@ -47,7 +19,7 @@ enum Math_Error:Error {
 
 
  
- // Both functions originally created in generic form.
+ // Both functions had been originally created in generic form before I publish in Git.
  // The issue was a conversion from T into Double.
  func clamp<T: FloatingPoint>(_ x:T,_ min: T,_ max: T) throws -> T {
  
