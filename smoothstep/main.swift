@@ -30,7 +30,7 @@ func clamp(_ x:Double,_ min: Double,_ max: Double) throws -> Double {
     return x
 }
 
-func smoothStep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
+func smoothstep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
     
     guard edge0 != edge1 else {
         throw Math_Error.E_OVERFLOW
@@ -45,10 +45,10 @@ func smoothStep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
 for x in stride(from: 0.1, to: 0.9, by: 0.01) {
     
     do {
-        let value12 = try smoothStep(0.1, 0.2, x)
-        let value45 = try smoothStep(0.4, 0.5, x)
-        let value89 = try smoothStep(0.8, 0.9, x)
-        let value19 = try smoothStep(0.1, 0.9, x)
+        let value12 = try smoothstep(0.1, 0.2, x)
+        let value45 = try smoothstep(0.4, 0.5, x)
+        let value89 = try smoothstep(0.8, 0.9, x)
+        let value19 = try smoothstep(0.1, 0.9, x)
     } catch is Math_Error {
         print("A Mathematical Error")
     } catch {
