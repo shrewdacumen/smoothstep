@@ -26,6 +26,7 @@
 		0999703122315EF0009D5AAB /* smoothstep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smoothstep; sourceTree = BUILT_PRODUCTS_DIR; };
 		0999703422315EF0009D5AAB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0999703B22315F43009D5AAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0999703C22316175009D5AAB /* smoothstep.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = smoothstep.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0999703422315EF0009D5AAB /* main.swift */,
+				0999703C22316175009D5AAB /* smoothstep.playground */,
 			);
 			path = smoothstep;
 			sourceTree = "<group>";

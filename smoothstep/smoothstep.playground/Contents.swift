@@ -1,12 +1,4 @@
-//
-//  main.swift
-//  smoothstep
-//
-//  Created by sungwook on 3/7/19.
-//  Copyright © 2019 Sungwook Kim. All rights reserved.
-//
-
-import Foundation
+import Cocoa
 
 print("smoothstep")
 
@@ -45,8 +37,6 @@ func smoothstep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
 for x in stride(from: 0.1, to: 0.9, by: 0.01) {
     
     do {
-        // in playground version,
-        // the following 4 lines will gives 4 graphs on Xcode editor window
         let value12 = try smoothstep(0.1, 0.2, x)
         let value45 = try smoothstep(0.4, 0.5, x)
         let value89 = try smoothstep(0.8, 0.9, x)
@@ -57,4 +47,3 @@ for x in stride(from: 0.1, to: 0.9, by: 0.01) {
         print("An unknown error!")
     }
 }
-
