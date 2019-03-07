@@ -2,7 +2,7 @@
 // Please disregard all errors
 // this is for Swift script which will execute in command line on macOS or Unix, Linux and the likes.
 //
-//  smoothstep.swift
+//  main.swift
 //  smoothstep
 //
 //  Created by sungwook on 3/7/19.

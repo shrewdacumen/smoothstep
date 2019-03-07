@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0999703522315EF0009D5AAB /* smoothstep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999703422315EF0009D5AAB /* smoothstep.swift */; };
+		0999703522315EF0009D5AAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999703422315EF0009D5AAB /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		0999703122315EF0009D5AAB /* smoothstep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smoothstep; sourceTree = BUILT_PRODUCTS_DIR; };
-		0999703422315EF0009D5AAB /* smoothstep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smoothstep.swift; sourceTree = "<group>"; };
+		0999703422315EF0009D5AAB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0999703B22315F43009D5AAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0999703C22316175009D5AAB /* smoothstep.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = smoothstep.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 		0999703322315EF0009D5AAB /* smoothstep */ = {
 			isa = PBXGroup;
 			children = (
-				0999703422315EF0009D5AAB /* smoothstep.swift */,
+				0999703422315EF0009D5AAB /* main.swift */,
 				0999703C22316175009D5AAB /* smoothstep.playground */,
 			);
 			path = smoothstep;
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0999703522315EF0009D5AAB /* smoothstep.swift in Sources */,
+				0999703522315EF0009D5AAB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
