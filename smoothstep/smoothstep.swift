@@ -1,3 +1,4 @@
+#!/usr/bin/swift
 //
 //  main.swift
 //  smoothstep
@@ -7,8 +8,9 @@
 //
 
 import Foundation
+import Cocoa
 
-print("smoothstep")
+
 
 
 enum Math_Error:Error {
@@ -42,6 +44,48 @@ func smoothstep(_ edge0:Double,_ edge1:Double,_ x:Double) throws -> Double {
     
 }
 
+func dummy() {
+//    return Void()
+//    return
+    return () // () -> Void
+}
+
+func demo(with option:String) -> Void? {
+
+    for x in stride(from: 0.1, to: 0.9, by: 0.01) {
+        
+        do {
+            // in playground version,
+            // the following 4 lines will gives 4 graphs on Xcode editor window
+            let value: Double
+            switch option {
+            case "12":
+                value = try smoothstep(0.1, 0.2, x)
+            case "45":
+                value = try smoothstep(0.4, 0.5, x)
+            case "89":
+                value = try smoothstep(0.8, 0.9, x)
+            case "19":
+                value = try smoothstep(0.1, 0.9, x)
+            default:
+                return nil
+            }
+            print("value = \(value)")
+      
+        } catch is Math_Error {
+            print("A Mathematical Error")
+        } catch {
+            print("An unknown error!")
+        }
+    }
+    
+    return ()
+}
+
+
+print("smoothstep")
+
+/*
 for x in stride(from: 0.1, to: 0.9, by: 0.01) {
     
     do {
@@ -57,4 +101,9 @@ for x in stride(from: 0.1, to: 0.9, by: 0.01) {
         print("An unknown error!")
     }
 }
+*/
 
+demo(with: "12")
+demo(with: "45")
+demo(with: "89")
+demo(with: "19")

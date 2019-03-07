@@ -13,3 +13,10 @@ smoothstep returns 0.0 if x ≤ edge0 and 1.0 if x ≥ edge1.
 
 Results are undefined if edge0 ≥ edge1.
 
+
+
+In order to run the swift,  open terminal.app and then type the followings:
+    chmod u+x ./smoothstep.swift
+    ./smoothstep.swift
+
+Then you'll see the result in the terminal as well.
