@@ -20,3 +20,7 @@ In order to run the swift,  open terminal.app and then type the followings:
     ./smoothstep.swift
 
 Then you'll see the result in the terminal as well.
+
+
+// Please disregard all errors
+// this is for Swift script which will execute in command line on macOS or Unix, Linux and the likes.
